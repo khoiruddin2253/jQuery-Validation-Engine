@@ -85,6 +85,11 @@
                     "regex": /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
                     "alertText": "* Alamat email tidak sah"
                 },
+                //time format (hh:mm)
+		"time": {
+                    "regex": /^([0-9]{2})\:([0-9]{2})$/,
+                    "alertText": "* isi dengan format waktu (hh:mm)"
+                },
                 "integer": {
                     "regex": /^[\-\+]?\d+$/,
                     "alertText": "* Bukan bilangan bulat yang sah"
